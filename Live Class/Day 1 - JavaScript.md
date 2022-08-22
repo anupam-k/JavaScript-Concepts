@@ -1,5 +1,4 @@
-![Moralis-Blogpost-JavaScript-Explained-07272021-V12](https://user-images.githubusercontent.com/91872149/185986843-58874638-2dab-41e2-8789-6e7d653b77bc.png)
-
+![java-script1](https://user-images.githubusercontent.com/91872149/185987145-1f149439-7129-4c07-a981-dfa5687ed14d.jpg)
 
 ## Primitive Data Types - Store Value Of Same Kind
 - number
