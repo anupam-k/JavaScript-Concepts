@@ -1,5 +1,5 @@
 # _JavaScript Concepts_
 ![java-script1](https://user-images.githubusercontent.com/91872149/185989247-028fa765-aae8-447e-8908-2fbc8e4299b3.jpg)<br>
-### _Link🔗_: _[LearnCodeOnline Course Notes](https://github.com/anupam-k/JavaScript-Concepts/blob/main/Complete%20JavaScript%20Course%20-%20LearnCodeOnline/course_notes.md)_
+### _Link_: _[LearnCodeOnline Course Notes](https://github.com/anupam-k/JavaScript-Concepts/blob/main/Complete%20JavaScript%20Course%20-%20LearnCodeOnline/course_notes.md)_
 
-### _Link🔗_: _[Live Class Notes](https://github.com/anupam-k/JavaScript-Concepts/tree/main/Live%20Class)_
+### _Link_: _[Live Class Notes](https://github.com/anupam-k/JavaScript-Concepts/tree/main/Live%20Class)_
