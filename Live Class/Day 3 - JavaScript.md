@@ -291,6 +291,6 @@ Sat Aug 27 2022 12:47:45 GMT +0530 (Indian Standard Time)
 ```
 > Notes: self-envoking function, anonymous function
 
-//TODO: Global Scope
-//TODO: LOCAL Scope
-//TODO: Block Scope
+//TODO: Global Scope<br>
+//TODO: LOCAL Scope<br>
+//TODO: Block Scope<br>
