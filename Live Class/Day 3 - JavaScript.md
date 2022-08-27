@@ -201,4 +201,50 @@ let holdvalue = sumofArray(numb);
 console.log(holdvalue);
 ```
 
+## Arrow Function (=>)
+```javascript
+let abc = () => {
+console.log("hello Arrow");
+}
+abc();
+
+Output:
+hello Arrow
+```
+- store function inside variable abc
+- () signifies function
+
+```javascript
+let twonumber = () => {
+   console.log(x,y);
+};
+
+twonumber(25, 97);
+
+Output:
+25, 97
+```
+
+```javascript
+let twonumber = () => {
+   console.log("Holla");
+};
+
+twonumber();
+
+Output:
+Holla
+```
+
+```javascript
+let twonumber = (x) => {
+   console.log(x);
+};
+
+twonumber(1);
+
+Output:
+1
+```
+
 > Notes: self-envoking function, anonymous function
