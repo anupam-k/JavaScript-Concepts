@@ -161,3 +161,44 @@ Output:
 5
 ```
 
+``` javascript
+function printfullname(firstname, lastname){
+   let full_name = firstname + " " + lastname;
+   return full_name;
+}
+let fn = printfullname("Anurag", "Tiwari");
+console.log(fn);
+console.log(printfullname("Anurag", "Tiwari"));
+
+Output:
+Anurag Tiwari
+```
+
+**Q. Area of Circle**
+```javascript
+function areaOfCircle(r){
+let area = Math.PI*r*r;
+return area;
+}
+console.log(areaOfCircle(10));
+
+Output:
+314.159263589793
+```
+
+## How to Handle Arrays
+```javascript
+function sumofArray(arr){
+   let sum = 0;
+   for(let i=0;i<arr.length;i++){
+      sum = sum + arr[i];
+   }
+   return sum;
+}
+let numb = [1,2,3,4,5,6,7,8]
+
+let holdvalue = sumofArray(numb);
+console.log(holdvalue);
+```
+
+> Notes: self-envoking function, anonymous function
