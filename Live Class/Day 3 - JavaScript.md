@@ -247,4 +247,19 @@ Output:
 1
 ```
 
+```javascript
+const SumofAll = (...args) => {
+   let sum = 0;
+   for(let element of args){
+      sum = sum + element;
+   }
+   return sum;
+ };
+
+SumofAll(1,2,3,4,5,6,7,8,9);
+
+Output:
+45
+```
+
 > Notes: self-envoking function, anonymous function
