@@ -256,7 +256,7 @@ const SumofAll = (...args) => {
    return sum;
  };
 
-SumofAll(1,2,3,4,5,6,7,8,9);
+console.log(SumofAll(1,2,3,4,5,6,7,8,9));
 
 Output:
 45
