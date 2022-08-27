@@ -3,13 +3,13 @@
 #iwritecode complete by 8'O clock today itself i.e.(27/8/2022)
 
 
-## Loops
+# Loops
 ### For Loop
 **Syntax**
 > for(initialization ; condition ; increment/decrement)
 
 **Q. Print from 0 to 5**
-```
+```javascript
 for(let i=0;i<=5;i++){
    console.log(i); or console.log(`${i}`);
 }
@@ -24,14 +24,14 @@ Output:
 ```
 
 **Q. Square of 1 to 5**
-```
+```javascript
 for(let i=0;i<=5;i++){
    console.log(`${i} * ${i} = ${i*i}`);
 }
 ```
 
 **Q. Store the con in newcon with Uppercase**
-```
+```javascript
 let con= ["India","Sweden","Norway", "Iceland"];
 let newcon = [];
 
@@ -42,7 +42,7 @@ console.log(newcon);
 ```
 
 ### While Loop
-```
+```javascript
 let i = 0;
 while(i % 2 == 0){
 console.log(i);
@@ -52,7 +52,7 @@ i=i+1;
 ```
 
 ### Do While Loop
-```
+```javascript
 let i = 0;
 do{
   console.log(i);
@@ -66,7 +66,7 @@ do{
 How to iterate over an array<br>
 > for(let var of array)
 
-```
+```javascript
 let num =[1,2,3,4,5];
 for(let number of num){
   console.log(number);
@@ -80,7 +80,7 @@ Output:
 5
 ```
 
-```
+```javascript
 let con = ["India","Sweden","Norway", "Iceland"];
 for(let cont of con){
   console.log(cont);//for whole array or console.log(cont[0]);//for first index
@@ -95,7 +95,7 @@ Iceland
 
 ### Break and Continue
 
-```
+```javascript
 Break
 
 for(let i=1;i<5;i++){
@@ -124,3 +124,40 @@ Output:
 4
 5
 ```
+
+# Functions
+- Reusable code, clean code, 
+
+**Syntax**
+```javascript
+//function definition
+//function without parameter
+function Squ(){
+    //logic
+}
+Squ(); // function calling
+```
+
+```javascript
+//Function Without Parameter
+function Squ(){
+   let x = 5;
+   let sq = x*x;
+      console.log(sq);
+}
+Squ();
+
+Output:
+25
+```
+```javascript
+//Function with Parameter
+function add(x){
+console.log(x);
+}
+add(5);
+
+Output:
+5
+```
+
