@@ -3,7 +3,7 @@
 #iwritecode complete by 8'O clock today itself i.e.(27/8/2022)
 
 
-# Loops
+# _Loops_
 ### For Loop
 **Syntax**
 > for(initialization ; condition ; increment/decrement)
@@ -125,7 +125,7 @@ Output:
 5
 ```
 
-# Functions
+# _Functions_
 - Reusable code, clean code, 
 
 **Syntax**
@@ -261,5 +261,32 @@ console.log(SumofAll(1,2,3,4,5,6,7,8,9));
 Output:
 45
 ```
+# _Date and Time_
 
+```javascript
+let now = new Date();
+
+console.log(now.getFullYear());
+console.log(now.getMonth());
+console.log(now.getDate());
+console.log(now.getDay());
+console.log(now.getHours());
+console.log(now.getMinutes());
+console.log(now.getSeconds());
+console.log(now);
+console.log(now.toString());
+
+
+
+Output:
+2022
+7 // starts from 0 so 7
+27
+6 // starts from sunday as 0
+12
+45
+54
+2022-08-27T07:17:45:019Z
+Sat Aug 27 2022 12:47:45 GMT +0530 (Indian Standard Time)
+```
 > Notes: self-envoking function, anonymous function
