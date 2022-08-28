@@ -1,4 +1,4 @@
-## HomeWork
+## HomeWork (Done✅)
 > Write an article on arrays in javascript(in-depth)
 #iwritecode complete by 8'O clock today itself i.e.(27/8/2022)
 
