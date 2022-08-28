@@ -1,0 +1,15 @@
+## All Topic Day wise
+- Data Types - number, string, boolean
+- Variables
+- Conditions - if else, switch
+- Math Functions
+- Array
+- Loops - for, while, do while, for in, for of
+- Functions - with parameter, without parameter, arrow functions
+- Dates
+- Objects
+- High Order Function - Set Time Out, Set Interval
+- For each, map filter, reduce
+- read about the sort function
+- complete the previous 35 question
+- also 15 questions from ineuron dashboard
