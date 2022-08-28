@@ -1,4 +1,4 @@
-## All Topic Day wise
+## _All Topic Day wise_
 - Data Types - number, string, boolean
 - Variables
 - Conditions - if else, switch
