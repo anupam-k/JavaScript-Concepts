@@ -152,4 +152,48 @@ Hola
 Namaste
 ```
 
+## _Map_
+- It can iterate and modify
+```javascript
+let numbers = [1,2,3,4,5,6];
+let store = numbers.map((num) => num * num);
+console.log(store);
 
+Output:
+[ 1, 4, 9, 16, 25, 36]
+```
+```javascript
+let names = ["hitesh Sir", "Surya Sir", "ANurag", "PrasaD"];
+let store1 = names.map((names) => name.toUpperCase()); 
+console.log(store1);
+
+Output:
+['HITESH SIR', 'SURYA SIR, 'ANURAG', 'PRASAD']
+```
+
+## _Filter_
+- It will also iterate in array and return a new array
+```javascript
+let country = ["India", japan", "Kenya", "Ireland", "Canada", "Germanyan"];
+
+let store = country.filter((country) => country.includes("an"));
+console.log(store);
+
+Output:
+['japan', 'Canada', 'Germanyan']
+```
+
+## _Reduce_
+```javascript
+let numbers = [1,2,3,4,5,6,7];
+
+// Syntax
+// arrayName.reduce(acc,curr)=>{},value)
+//acc -> monitor
+//cu -> 1,2,3
+let sum = numbers.reduce((acc, curr) => acc + curr, 2);
+console.log(sum);
+
+Output:
+30
+```
