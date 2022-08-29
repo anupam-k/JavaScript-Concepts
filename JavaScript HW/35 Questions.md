@@ -1,11 +1,79 @@
-## JavaScript Questions
-1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with there type.
+## _JavaScript Questions_
+ <b>1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with there type.</b>
+<br><br>
+_**Code**_
+```javascript
+var a = 45;
+var b = "Code";
+var c = true;
+var d;
+var e = null;
 
-2. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
+console.log(a, typeof a);
+console.log(b, typeof b);
+console.log(c, typeof c);
+console.log(d, typeof d);
+console.log(e, typeof e);
+```
 
-3. Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.
+_**Output**_
+```
+45 number
+Code string
+true boolean
+undefined undefined
+null object
+```
 
-4. Check if the string contains a word Script using includes() method.
+<b>2. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.</b>
+<br><br>
+_**Code**_
+```javascript
+var firstName = "Anupam";
+var lastName = "Kumar Krishnan";
+var martialStatus = "Unmarried";
+var country = "India";
+var age = 22;
+
+console.log(`
+ First name: ${firstName},
+ Last name: ${lastName},
+ Martial Status: ${martialStatus},
+ Country: ${country},
+ Age: ${age}
+`);
+```
+
+_**Output**_
+```
+ First name: Anupam,
+ Last name: Kumar Krishnan,
+ Martial Status: Unmarried,
+ Country: India,
+ Age: 22
+```
+
+<b>3. Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.</b>
+
+_**Code**_
+```javascript
+var course = "Full Stack JavaScript Web Developer Bootcamp";
+console.log(course.toUpperCase());
+```
+_**Output**_
+```
+FULL STACK JAVASCRIPT WEB DEVELOPER BOOTCAMP
+```
+<b>4. Check if the string contains a word Script using includes() method.</b>
+_**Code**_
+```javascript
+var language = "JavaScript";
+console.log(language.includes("Script"));
+```
+_**Output**_
+```
+true
+```
 
 5. Split the string into an array using split() method
 
