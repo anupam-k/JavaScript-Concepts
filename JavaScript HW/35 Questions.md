@@ -54,7 +54,7 @@ _**Output**_
 ```
 
 <b>3. Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.</b>
-
+<br><br>
 _**Code**_
 ```javascript
 var course = "Full Stack JavaScript Web Developer Bootcamp";
@@ -65,6 +65,7 @@ _**Output**_
 FULL STACK JAVASCRIPT WEB DEVELOPER BOOTCAMP
 ```
 <b>4. Check if the string contains a word Script using includes() method.</b>
+<br><br>
 _**Code**_
 ```javascript
 var language = "JavaScript";
@@ -75,9 +76,40 @@ _**Output**_
 true
 ```
 
-5. Split the string into an array using split() method
+<b>5. Split the string into an array using split() method</b>
+<br><br>
+_**Code**_
+```javascript
+var language = "JavaScript C C++ Java";
+console.log(language.split(" "));
+```
 
-6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+_**Output**_
+```javascript
+[ 'JavaScript', 'C', 'C++', 'Java' ]
+```
+
+<b>6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.</b>
+<br><br>
+
+_**Code**_
+```javascript
+var companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+console.log(companies.split(","));
+```
+
+_**Output**_
+```javascript
+[
+  'Facebook',
+  ' Google',
+  ' Microsoft',
+  ' Apple',
+  ' IBM',
+  ' Oracle',
+  ' Amazon'
+]
+```
 
 7. Use lastIndexOf to determine the position of the last occurrence of a script.
 
