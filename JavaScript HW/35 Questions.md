@@ -112,6 +112,7 @@ _**Output**_
 ```
 
 <b>7. Use lastIndexOf to determine the position of the last occurrence of a script.</b>
+<br><br>
 _**Code**_
 ```javascript
   var text = "Full Stack Javascript Web Developer Bootcamp";
@@ -124,6 +125,7 @@ _**Output**_
 ```
 
 <b>8. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.</b>
+<br><br>
 _**Code**_
 ```javascript
 var line = "You cannot end a sentence with because because because is a conjunction";
@@ -137,6 +139,7 @@ _**Output**_
 ```
 
 <b>9. Use trim() to remove any trailing whitespace at the beginning and the end of a string.</b>
+<br><br>
 _**Code**_
 ```javascript
 var sentence = " Full Stack JavaScript Web Developer Bootcamp ";
@@ -150,6 +153,8 @@ Full Stack JavaScript Web Developer Bootcamp
 10. Boolean value is either true or false.
     - Write three JavaScript statement which provide truthy value.
     - Write three JavaScript statement which provide falsy value.
+
+<br><br>
 
 11. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
     - 4 > 3
