@@ -150,34 +150,59 @@ _**Output**_
 Full Stack JavaScript Web Developer Bootcamp
 ```
 
-10. Boolean value is either true or false.
-    - Write three JavaScript statement which provide truthy value.
-    - Write three JavaScript statement which provide falsy value.
+<b>10. Boolean value is either true or false.</b><br>
+    <b>- Write three JavaScript statement which provide truthy value.</b><br>
+    <b>- Write three JavaScript statement which provide falsy value.</b>
 
 <br><br>
 
-11. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
-    - 4 > 3
-    - 4 >= 3
-    - 4 < 3
-    - 4 <= 3
-    - 4 == 4
-    - 4 === 4
-    - 4 != 4
-    - 4 !== 4
-    - 4 != '4'
-    - 4 == '4'
-    - 4 === '4'
-    - Find the length of python and jargon and make a falsy comparison statement.
+<b>11. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()</b><br>
+    <b>- 4 > 3</b><br>
+    <b>- 4 >= 3</b><br>
+    <b>- 4 < 3</b><br>
+    <b>- 4 <= 3</b><br>
+    <b>- 4 == 4</b><br>
+    <b>- 4 === 4</b><br>
+    <b>- 4 != 4</b><br>
+    <b>- 4 !== 4</b><br>
+    <b>- 4 != '4'</b><br>
+    <b>- 4 == '4'</b><br>
+    <b>- 4 === '4'</b><br>
+    <b>- Find the length of python and jargon and make a falsy comparison statement.</b><br>
+     
+ **_Code & Output_**
+ ```javascript
+     Condition             Result
+     4 > 3                 true
+     
+     4 >= 3                true
+     
+     4 < 3                 false
+          
+     4 <= 3                false
+     
+     4 == 4                true
+     
+     4 != 4                false
+     
+     4 !== 4               false
+     
+     4 == '4'              true
+     
+     4 === '4'             false
+ ```
+     
 
-12. Use the Date object to do the following activities
-    - What is the year today?
-    - What is the month today as a number?
-    - What is the date today?
-    - What is the day today as a number?
-    - What is the hours now?
-    - What is the minutes now?
-    - Find out the numbers of seconds elapsed from January 1, 1970 to now.
+<p><b>12. Use the Date object to do the following activities<br>
+    - What is the year today?<br>
+    - What is the month today as a number?<br>
+    - What is the date today?<br>
+    - What is the day today as a number?<br>
+    - What is the hours now?<br>
+    - What is the minutes now?<br>
+    - Find out the numbers of seconds elapsed from January 1, 1970 to now.</b><br></p>
+     
+
 
 13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
