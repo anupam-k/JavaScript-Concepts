@@ -17,7 +17,7 @@ console.log(e, typeof e);
 ```
 
 _**Output**_
-```
+```javascript
 45 number
 Code string
 true boolean
@@ -45,7 +45,7 @@ console.log(`
 ```
 
 _**Output**_
-```
+```javascript
  First name: Anupam,
  Last name: Kumar Krishnan,
  Martial Status: Unmarried,
@@ -61,7 +61,7 @@ var course = "Full Stack JavaScript Web Developer Bootcamp";
 console.log(course.toUpperCase());
 ```
 _**Output**_
-```
+```javascript
 FULL STACK JAVASCRIPT WEB DEVELOPER BOOTCAMP
 ```
 <b>4. Check if the string contains a word Script using includes() method.</b>
@@ -72,7 +72,7 @@ var language = "JavaScript";
 console.log(language.includes("Script"));
 ```
 _**Output**_
-```
+```javascript
 true
 ```
 
