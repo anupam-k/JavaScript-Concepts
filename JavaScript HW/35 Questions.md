@@ -111,11 +111,41 @@ _**Output**_
 ]
 ```
 
-7. Use lastIndexOf to determine the position of the last occurrence of a script.
+<b>7. Use lastIndexOf to determine the position of the last occurrence of a script.</b>
+_**Code**_
+```javascript
+  var text = "Full Stack Javascript Web Developer Bootcamp";
+  var result = text.lastIndexOf("Bootcamp");
+  console.log(result);
+```
+_**Output**_
+```
+36
+```
 
-8. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
+<b>8. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.</b>
+_**Code**_
+```javascript
+var line = "You cannot end a sentence with because because because is a conjunction";
+var output = line.indexOf("because");
+console.log(output);
+```
 
-9. Use trim() to remove any trailing whitespace at the beginning and the end of a string.
+_**Output**_
+```
+31
+```
+
+<b>9. Use trim() to remove any trailing whitespace at the beginning and the end of a string.</b>
+_**Code**_
+```javascript
+var sentence = " Full Stack JavaScript Web Developer Bootcamp ";
+console.log(sentence.trim(" "));
+```
+_**Output**_
+```
+Full Stack JavaScript Web Developer Bootcamp
+```
 
 10. Boolean value is either true or false.
     - Write three JavaScript statement which provide truthy value.
