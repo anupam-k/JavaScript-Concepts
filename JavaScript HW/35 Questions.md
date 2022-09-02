@@ -195,16 +195,80 @@ Full Stack JavaScript Web Developer Bootcamp
     - What is the hours now?<br>
     - What is the minutes now?<br>
     - Find out the numbers of seconds elapsed from January 1, 1970 to now.</b><br></p>
+    
+_**Code**_
+
+```javascript
+let obj = new Date();
      
+console.log(obj.getFullYear());
 
+console.log(obj.getMonth());
 
-13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+console.log(obj.getDate());
 
-14. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+console.log(obj.getDay());
 
-15. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+console.log(obj.getHours());
 
-16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+console.log(obj.getMinutes());
+```
+
+_**Output**_
+```javascript
+     2022   // Year
+     8      // Month
+     2      // Date
+     5      // Day
+     23     // Hours
+     52     // Minutes
+```
+     
+<b>13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).</b>
+     
+_**Code**_
+```javascript
+const prompt = require("prompt-sync")();
+const baseValue = prompt("Enter the base of a triangle: ");
+const heightValue = prompt("Enter the height of a triangle: ");
+
+const areaValue = baseValue * heightValue * 0.5;
+
+console.log(`The area of the triangle is ${areaValue}`);
+```
+_**Output**_
+```javascript
+Enter the base of a triangle: 6
+Enter the height of a triangle: 4
+The area of the triangle is 12 
+```
+     
+<b>14. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)</b>
+
+_**Code**_
+```javascript
+const prompt = require("prompt-sync")();
+const x1 = prompt("Enter value of x1: ");
+const y1 = prompt("Enter value of y1: ");
+const x2 = prompt("Enter value of x2: ");
+const y2 = prompt("Enter value of y2: ");
+
+const slope = (y2 - y1) / (x2 - x1);
+
+console.log(slope);
+```
+_**Output**_
+```javascript
+Enter value of x1: 2
+Enter value of y1: 2
+Enter value of x2: 6
+Enter value of y2: 10
+2
+```
+     
+<b>15. Calculate the slope, x-intercept and y-intercept of y = 2x -2</b>
+
+<b>16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.</b>
 
 17. Create a human readable time format using the Date time object
     - YYYY-MM-DD HH:mm
