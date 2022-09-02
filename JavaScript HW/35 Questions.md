@@ -319,7 +319,22 @@ Enter value of y2: 10
 
 29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
-30. Write a script which generates a random hexadecimal number.
+<b>30. Write a script which generates a random hexadecimal number.</b>
+     
+_**Code**_
+```javascript
+const hexadecimal_number = () => {
+  let n = (Math.random() * 0xfffff * 1000000).toString(16);
+  return n.slice(0, 6);
+};
+
+console.log(hexadecimal_number());
+```
+_**Output**_
+```javascript
+9613ed
+```
+
 
 31. Sort the webTechs array and mernStack array
 // countries Array : https://gist.github.com/incredimike/1469814
@@ -339,6 +354,39 @@ Enter value of y2: 10
     - Overweight: BMI is 25 to 29.9
     - Obese: BMI is 30 or more
 
-34. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.
+<b>34. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.</b>
+_**Code**_
+```javascript
+function solveLinEquation(a, b, n) {
+  for (let i = 0; i * a <= n; i++) {
+    if ((n - i * a) % b == 0) {
+      console.log("x = " + i + ", y = " + (n - i * a) / b);
+      return;
+    }
+  }
+  console.log("No solution");
+}
 
-35. Write a functions which checks if all items are unique in the array.
+let a = 2;
+let b = 3;
+let n = 8;
+solveLinEquation(a, b, n);
+```
+_**Output**_
+```javascript
+x = 1, y = 2                   
+```
+<b>35. Write a functions which checks if all items are unique in the array.</b>
+ 
+_**Code**_
+```javascript
+const isArrayElementsUnique = (arr) => arr.length === new Set(arr).size;
+
+console.log(isArrayElementsUnique([1, 3, 2, 3]));
+console.log(isArrayElementsUnique([1, 2, 3]));
+```
+_**Output**_
+```javascript
+false
+true
+```
