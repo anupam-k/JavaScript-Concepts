@@ -172,24 +172,18 @@ Full Stack JavaScript Web Developer Bootcamp
      
  **_Code & Output_**
  ```javascript
-     Condition             Result
-     4 > 3                 true
-     
-     4 >= 3                true
-     
-     4 < 3                 false
-          
-     4 <= 3                false
-     
-     4 == 4                true
-     
-     4 != 4                false
-     
-     4 !== 4               false
-     
-     4 == '4'              true
-     
-     4 === '4'             false
+     Condition                       Result
+     console.log(4 > 3);             true
+     console.log(4 >= 3);            true
+     console.log(4 < 3);             false
+     console.log(4 <= 3);            false
+     console.log(4 == 4);            true
+     console.log(4 === 4);           true
+     console.log(4 != 4);            false
+     console.log(4 !== 4);           false
+     console.log(4 != "4");          false
+     console.log(4 == "4");          true
+     console.log(4 === "4");         false
  ```
      
 
