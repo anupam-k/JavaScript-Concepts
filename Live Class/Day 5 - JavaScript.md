@@ -199,3 +199,23 @@ for(let key of newmap){
 
 // differnece bwtween foreach and for of
 ```
+
+## _Closure_
+
+>  When inner function access the values/variables of outer function, they are called as **Closure**
+
+```javascript
+function outer(){
+    let variable = "Seven";
+    function inner() {
+        console.log(variable);
+     }
+    inner();
+}
+outer();
+
+// Output
+// Seven
+```
+
+
