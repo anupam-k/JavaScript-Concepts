@@ -135,3 +135,67 @@ person { firstname: 'Anirudh', coursecount: 5 }
 
 //memory allocation for all the users getting registered at LCO
 ```
+
+## _Set and Map_
+> Set - > Set only contains unique elements
+```javascript
+let a = [1, 2, 3, 1, 2, 3, 4, 3, 2, 4, 1, 2, 4, 1, 12, 3, 4];
+
+let num = new Set();
+console.log(num);       // Set(0) {}
+
+let num1 = new Set(a);
+console.log(num1);      // Set(5) {1, 2, 3, 4, 5}
+
+for(let i of num1){     // 1
+    console.log(i);     // 2
+}                       // 3
+                        // 4
+                        // 12
+//delete, has function
+num.delete(12);
+console.log(num.has(7));
+```
+
+## _Maps_
+> Key can be of any data type
+
+// getter and setter
+
+```javascript
+let newmap = new Map();
+console.log(newmap);
+newmap.set("1", "one");
+newmap.set(1, "one");
+newmap.set(true, "one");
+// Map(3) { '1' => 'one', 1 => 'ome', true => 'one' }
+
+// {1:"one"} // object
+// {1,2,3,4,5} //set
+// {'1' => 'one', 1 => 'one', true => one' } //map
+```
+
+```javascript
+let city = [
+["India", "Delhi"],
+["Gujrat", "Surat"],
+["Raj","jaipur"],
+];
+
+let newmap = new Map(city);
+console.log(newmap);
+console.log(newmap.get("India"));
+
+// Map { 'India' => 'Delhi', 'Gujrat' => 'Surat', 'Raj' => 'jaipur' }
+// Delhi
+
+for(let key of newmap){
+    console.log(key);
+}
+
+// [ 'India', 'Delhi' ]
+// [ 'Gujrat', 'Surat' ]
+// [ 'Raj', 'jaipur' ]
+
+// differnece bwtween foreach and for of
+```
