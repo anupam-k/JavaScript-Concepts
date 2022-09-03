@@ -218,4 +218,33 @@ outer();
 // Seven
 ```
 
+# _Scope_
+> Anything written inside a curly bracket is scope
+> Scope: Where to look for things
+> Q. What it is that we are looking for
 
+
+```javascript
+{
+let x = 3;
+}
+console.log(x);  //  x is not defined as x is ina block of scope
+```
+
+```javascript
+if(){
+let x = 4;
+console.log(x)
+}
+```
+
+## _Lexical Scope_
+
+## _Dynamic Scope_
+> no use in javascript
+
+## _Scope Chaning_
+
+# <b>📍Note Important:</b>
+  - Javascript is a Synchornous Single Threaded Language<br>
+  - In Javascript everything happen inside an Execution Context
