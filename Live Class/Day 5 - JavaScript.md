@@ -89,8 +89,8 @@ console.log(sum(...vari));  //This is called Spread Operator   // 12
 
 ### _Rest_
 ```javascript
-function sumtwo(..args){     // accumulating all the values and wrap in an array 
-console.lof(args);           // [1, 2, 3, 4, 5 ] Array
+function sumtwo(...args){    // accumulating all the values and wrap in an array 
+console.log(args);           // [1, 2, 3, 4, 5 ] Array
   let sum = 0;
   for(let a of args){
   sum = sum + a;
@@ -99,4 +99,39 @@ console.lof(args);           // [1, 2, 3, 4, 5 ] Array
 }
 
 console.log(sumtwo(1,2,3,4,5));   // 15
+```
+
+## _New_
+> new is a keyword
+
+```javascript
+let person = {
+name: "Anurag",
+};
+console.log(person);         // { name: 'anurag' }
+```
+
+```javascript
+let person = new Object();
+person.name = "Anurag";
+console.log(person);        // { name: 'anurag' }
+```
+
+## _Registering on LCO_
+```javascript
+var person = function(firstname, coursecount){
+    this.firstname = firstname;
+    this.coursecount = coursecount;
+};
+
+var anurag = new person("Anurag", 7);
+console.log(anurag);
+var anirudh = new person("Anirudh", 5);
+console.log(anirudh);
+
+// Output
+person { firstname: 'Anurag', coursecount: 7 }
+person { firstname: 'Anirudh', coursecount: 5 }
+
+//memory allocation for all the users getting registered at LCO
 ```
