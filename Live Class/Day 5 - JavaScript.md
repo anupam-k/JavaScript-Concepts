@@ -248,3 +248,19 @@ console.log(x)
 # <b>📍Note Important:</b>
   - Javascript is a Synchornous Single Threaded Language<br>
   - In Javascript everything happen inside an Execution Context
+
+As soon as you run a javascript program, an execution context is created:
+```javascript
+var a = 10;
+var b = 25;
+var c = 30;
+
+function sum(){
+var a = 10;
+var b = 20;
+console.log(a+b);
+}
+sum();
+```
+
+![image](https://user-images.githubusercontent.com/91872149/188261850-8ae4e063-bab2-4947-bac1-61db4f0e2f69.png)
