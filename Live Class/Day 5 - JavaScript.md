@@ -264,3 +264,7 @@ sum();
 ```
 
 ![image](https://user-images.githubusercontent.com/91872149/188261850-8ae4e063-bab2-4947-bac1-61db4f0e2f69.png)
+
+TO DO ✅
+- Read Closure Properly
+- Global Execution context
