@@ -145,7 +145,7 @@ let num = new Set();
 console.log(num);       // Set(0) {}
 
 let num1 = new Set(a);
-console.log(num1);      // Set(5) {1, 2, 3, 4, 5}
+console.log(num1);      // Set(5) {1, 2, 3, 4, 12}
 
 for(let i of num1){     // 1
     console.log(i);     // 2
