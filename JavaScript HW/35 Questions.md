@@ -1,6 +1,7 @@
 ## _JavaScript Questions_
- <b>1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with there type.</b>
+ <b>1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with there type.<b>
 <br><br>
+
 _**Code**_
 ```javascript
 var a = 45;
@@ -281,14 +282,54 @@ Enter value of y2: 10
 <b>15. Calculate the slope, x-intercept and y-intercept of y = 2x -2</b>
 
 <b>16. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.</b>
-
+<br>
+_**Code**_
+```javascript
+let radius = prompt("Please enter radius: "); 
+const pi = 3.14;
+     
+let area = pi * radius * radius;
+let circumference = 2 * pi * radius;
+     
+console.log("Area of Circle: ", area);
+console.log("Circumference of Circle: ", Math.round(circumference));
+```
+_**Output**_
+```javascript
+5
+Area of Circle: 78.5
+Circumference of Circle: 31
+```
+     
 17. Create a human readable time format using the Date time object
     - YYYY-MM-DD HH:mm
     - DD-MM-YYYY HH:mm
     - DD/MM/YYYY HH:mm
 
-18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+<b>18. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.</b>
+<br>
+_**Code**_
+```javascript
+let age = prompt("Enter your age: ");
+     
+if(age >= 18)
+    console.log("You are old enough to drive");
+else
+    console.log("Wait for the number of years he needs to turn 18");
+```
+ <br>
+     
+_**Output**_
+```javascript
+// Use Case 1
+18
+You are old enough to drive
 
+// Use Case 2
+15
+Wait for the number of years he needs to turn 18
+```
+     
 19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
 20. Write a code which can give grades to students according to theirs scores:
@@ -327,7 +368,53 @@ Enter value of y2: 10
     - Find the range of the ages(max minus min)
     - Compare the value of (min - average) and (max - average), use abs() method
 
-28. Use for loop to iterate from 0 to 100 and print only prime numbers
+<b>28. Use for loop to iterate from 0 to 100 and print only prime numbers<b>
+ <br>
+ _**Code**_
+ ```javascript
+ for (let i = 0; i <= 100; i++) {
+    let flag = 0;
+
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    if (i > 1 && flag == 0) {
+        console.log(i);
+    }
+}
+```
+  _**Output**_
+ ```javascript
+ 2
+ 3
+ 5
+ 7
+ 11
+ 13
+ 17
+ 19
+ 23
+ 29
+ 31
+ 37
+ 41
+ 43
+ 47
+ 53
+ 59
+ 61
+ 67
+ 71
+ 73
+ 79
+ 83
+ 89
+ 97
+ ```
 
 29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
