@@ -153,6 +153,19 @@ Full Stack JavaScript Web Developer Bootcamp
 <b>10. Boolean value is either true or false.</b><br>
     <b>- Write three JavaScript statement which provide truthy value.</b><br>
     <b>- Write three JavaScript statement which provide falsy value.</b>
+    
+<b>Code & Output</b>
+```javascript
+const empty = {}
+empty ? "truthy" : "falsy" // truthy
+37 ? "truthy" : "falsy"    // truthy
+[] ? "truthy" : "falsy"    // truthy
+
+0 ? "truthy" : "falsy"     // falsy
+false ? "truthy" : "falsy" // falsy
+0n ? "truthy" : "falsy"    // falsy
+
+```
 
 <br><br>
 
