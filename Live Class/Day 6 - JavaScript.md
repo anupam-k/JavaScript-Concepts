@@ -13,9 +13,9 @@
 ```
 > variable - it will catch the error thrown by try block
 
- - <b>try:</b> wrap up the cpde which can throw the error
+ - <b>try:</b> wrap up the code which can throw the error
  - <b>catch:</b> write the code to do something when error occurs
- - <b>finally:</b> it will always executed
+ - <b>finally:</b> it will always execute
 
 ```javascript
   try{ 
@@ -38,7 +38,22 @@
   ```
   
   ## _Throw_ : Homework: How throws work
-  
+```javascript
+function getRectArea(width, height) {
+  if (isNaN(width) || isNaN(height)) {
+    throw 'Parameter is not a number!';
+  }
+}
+
+try {
+  getRectArea(3, 'A');
+} catch (e) {
+  console.error(e);
+}
+```
+**Output**
+> Parameter is not a number!
+
   ## _Types of error in JS:_
   - <b>Refernce Error</b>
   - <b>Syntax Error</b>
