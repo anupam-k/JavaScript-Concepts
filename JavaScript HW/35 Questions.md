@@ -154,7 +154,7 @@ Full Stack JavaScript Web Developer Bootcamp
     <b>- Write three JavaScript statement which provide truthy value.</b><br>
     <b>- Write three JavaScript statement which provide falsy value.</b>
     
-<b>Code & Output</b>
+<b>_Code & Output_</b>
 ```javascript
 const empty = {}
 empty ? "truthy" : "falsy" // truthy
@@ -166,8 +166,7 @@ false ? "truthy" : "falsy" // falsy
 0n ? "truthy" : "falsy"    // falsy
 
 ```
-
-<br><br>
+<br>
 
 <b>11. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()</b><br>
     <b>- 4 > 3</b><br>
