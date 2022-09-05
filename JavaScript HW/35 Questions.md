@@ -351,23 +351,62 @@ Wait for the number of years he needs to turn 18
 
 24. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 
-25. In the following shopping cart add, remove, edit items
-    => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
-    - add 'Meat' in the beginning of your shopping cart if it has not been already added
-    - add Sugar at the end of you shopping cart if it has not been already added
-    - remove 'Honey' if you are allergic to honey
-    - modify Tea to 'Green Tea'
+<b>25. In the following shopping cart add, remove, edit items</b><br>
+    <b>=> const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']</b><br>
+    <b>- add 'Meat' in the beginning of your shopping cart if it has not been already added</b><br>
+    <b>- add Sugar at the end of you shopping cart if it has not been already added</b><br>
+    <b>- remove 'Honey' if you are allergic to honey</b><br>
+    <b>- modify Tea to 'Green Tea'</b><br>
+
+_**Code**_
+```javascript
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+
+// Add 'Meat' in the beginning of your shopping cart if it has not been already added
+shoppingCart.unshift('Meat');
+console.log(shoppingCart);
+
+// Add 'Sugar' at the end of you shopping cart if it has not been already added
+shoppingCart.push('Sugar');
+console.log(shoppingCart);
+
+// Remove 'Honey' if you are allergic to honey
+var remove = shoppingCart.splice(4,1);
+console.log(shoppingCart);
+```
+_**Output**_
+```javascript
+['Meat', 'Milk', 'Coffee', 'Tea', 'Honey']
+['Meat', 'Milk', 'Coffee', 'Tea', 'Honey', 'Sugar']
+['Meat', 'Milk', 'Coffee', 'Tea', 'Sugar']
+```
 
 26. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
-27. The following is an array of 10 students ages:
-    => const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-    - Sort the array and find the min and max age
-    - Find the median age(one middle item or two middle items divided by two)
-    - Find the average age(all items divided by number of items)
-    - Find the range of the ages(max minus min)
-    - Compare the value of (min - average) and (max - average), use abs() method
-
+<b>27. The following is an array of 10 students ages:</b><br>
+   <b>=> const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]</b><br>
+   <b>- Sort the array and find the min and max age</b><br>
+   <b>- Find the median age(one middle item or two middle items divided by two)</b><br>
+   <b>- Find the average age(all items divided by number of items)</b><br>
+   <b>- Find the range of the ages(max minus min)</b><br>
+   <b>- Compare the value of (min - average) and (max - average), use abs() method</b><br>
+<br>
+_**Code**_
+```javascript
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+ 
+// Sort the array and find the min and max age
+console.log(ages.sort());
+console.log("Minimum age: ", ages[0]);
+console.log("Maximum age: ", ages[ages.length-1]);
+```
+_**Output**_
+```javascript
+[19, 19, 20, 22, 24, 24, 24, 25, 25, 26]
+Minimum age:  19
+Maximum age:  26
+```
+     
 <b>28. Use for loop to iterate from 0 to 100 and print only prime numbers<b>
  <br>
  _**Code**_
