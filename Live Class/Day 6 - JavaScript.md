@@ -63,7 +63,7 @@ try {
   ## _Scope_ : _Where to look for things_
   >  Q. What is that we are looking for
 
-  ## Javascript is a synchronous Single Threaded Languagge
+  ## 🔶 _Javascript is a synchronous Single Threaded Languagge_ 
   
   ```javascript
   var count = 10;
