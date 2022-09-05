@@ -225,16 +225,22 @@ console.log(obj.getDay());
 console.log(obj.getHours());
 
 console.log(obj.getMinutes());
+
+var dateToday = new Date();
+var dateGiven = new Date(1970, 1, 1);
+var elapsedTime = dateToday - dateGiven;
+console.log(elapsedT);     
 ```
 
 _**Output**_
 ```javascript
-     2022   // Year
-     8      // Month
-     2      // Date
-     5      // Day
-     23     // Hours
-     52     // Minutes
+     2022             // Year
+     8                // Month
+     2                // Date
+     5                // Day
+     23               // Hours
+     52               // Minutes
+     1659720450933    // Seconds
 ```
      
 <b>13. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).</b>
