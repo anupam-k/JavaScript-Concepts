@@ -351,8 +351,23 @@ Wait for the number of years he needs to turn 18
     - March, April or May, the season is Spring
     - June, July or August, the season is Summer
 
-22. Write a program which tells the number of days in a month.
+<b>22. Write a program which tells the number of days in a month.</b>
 
+_**Code**_
+```javascript
+function daysInMonth (month, year) { 
+  return new Date(year, month, 0).getDate();
+}
+
+console.log(daysInMonth(2, 2000)); 
+console.log(daysInMonth(9, 2022));
+```
+     
+_**Output**_
+```javascript
+29
+30
+```
 23. Write a program which tells the number of days in a month, now consider leap year.
 
 24. Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
