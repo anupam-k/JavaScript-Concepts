@@ -506,7 +506,27 @@ Maximum age:  26
  97
  ```
 
-29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+<b>29. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.</b>
+ 
+_**Code**_
+```javascript
+var sumOfEvenNumbers = 0,sumOfOddNumbers = 0;
+for (var x=0; x<=100; x++) {
+      if (x % 2 === 0) {
+            sumOfEvenNumbers = sumOfEvenNumbers + x;
+        }
+        else {
+             sumOfOddNumbers = sumOfOddNumbers + x;
+        }
+}
+console.log("Sum of all even numbers from 0 to 100: ", sumOfEvenNumbers);
+console.log("Sum of all odd numbers from 0 to 100: ", sumOfOddNumbers);
+```
+_**Output**_
+```javascript
+Sum of all even numbers from 0 to 100:  2550
+Sum of all odd numbers from 0 to 100:  2500    
+```
 
 <b>30. Write a script which generates a random hexadecimal number.</b>
      
