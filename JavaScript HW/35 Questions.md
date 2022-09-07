@@ -558,6 +558,18 @@ console.log("Overweight");
 else
 console.log("Obese");
  ```
+                                
+_**Input**_
+```javascript
+80
+2.02
+```
+                                
+_**Output**_
+```javascript
+Normal Weight
+```
+                                
 <b>34. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.</b>
 _**Code**_
 ```javascript
