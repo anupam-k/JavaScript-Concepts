@@ -158,13 +158,13 @@ Full Stack JavaScript Web Developer Bootcamp
 <b>_Code & Output_</b>
 ```javascript
 const empty = {}
-empty ? "truthy" : "falsy" // truthy
-37 ? "truthy" : "falsy"    // truthy
-[] ? "truthy" : "falsy"    // truthy
+console.log(empty ? "truthy" : "falsy"); // truthy
+console.log(37 ? "truthy" : "falsy");    // truthy
+console.log("a" ? "truthy" : "falsy");   // truthy
 
-0 ? "truthy" : "falsy"     // falsy
-false ? "truthy" : "falsy" // falsy
-0n ? "truthy" : "falsy"    // falsy
+console.log(0 ? "truthy" : "falsy");     // falsy
+console.log(false ? "truthy" : "falsy"); // falsy
+console.log(0n ? "truthy" : "falsy");    // falsy
 
 ```
 <br>
