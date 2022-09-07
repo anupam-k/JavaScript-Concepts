@@ -536,13 +536,28 @@ _**Output**_
     - Extract all the countries containing two or more words from the countries array and print it as array
     - Reverse the countries array and capitalize each country and stored it as an array
 
-33. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
-    - The same groups apply to both men and women.
-    - Underweight: BMI is less than 18.5
-    - Normal weight: BMI is 18.5 to 24.9
-    - Overweight: BMI is 25 to 29.9
-    - Obese: BMI is 30 or more
+<b>33. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.</b><br>
+    <b>- The same groups apply to both men and women.</b><br>
+    <b>- Underweight: BMI is less than 18.5</b><br>
+    <b>- Normal weight: BMI is 18.5 to 24.9</b><br>
+    <b>- Overweight: BMI is 25 to 29.9</b><br>
+    <b>- Obese: BMI is 30 or more</b><br>
 
+ _**Code**_
+ ```javascript
+let weight = prompt("Enter your weight: ");
+let height = prompt("Enter your height: ");
+let bmi = weight/(height*height);
+
+if(bmi < 18.5)
+console.log("Underweight");
+else if(bmi >= 18.5 && bmi <= 24.9)
+console.log("Normal Weight");
+else if(bmi >= 25 && bmi <= 29.9)
+console.log("Overweight");
+else
+console.log("Obese");
+ ```
 <b>34. Linear equation is calculated as follows: ax + by + c = 0. Write a function which calculates value of a linear equation, solveLinEquation.</b>
 _**Code**_
 ```javascript
