@@ -316,12 +316,11 @@ Circumference of Circle: 31
 <br>
 _**Code**_
 ```javascript
+const prompt = require("prompt-sync")();
 let age = prompt("Enter your age: ");
-     
-if(age >= 18)
-    console.log("You are old enough to drive");
-else
-    console.log("Wait for the number of years he needs to turn 18");
+
+if (age >= 18) console.log("You are old enough to drive");
+else console.log("Wait for the number of years he needs to turn 18");
 ```
  <br>
      
