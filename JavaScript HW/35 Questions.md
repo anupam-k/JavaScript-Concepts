@@ -383,13 +383,13 @@ function daysInMonth (month, year) {
   return new Date(year, month, 0).getDate();
 }
 
-console.log(daysInMonth(2, 2000)); 
+console.log(daysInMonth(2, 2001)); 
 console.log(daysInMonth(9, 2022));
 ```
      
 _**Output**_
 ```javascript
-29
+28
 30
 ```
 23. Write a program which tells the number of days in a month, now consider leap year.
