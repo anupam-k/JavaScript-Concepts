@@ -449,12 +449,35 @@ const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 console.log(ages.sort());
 console.log("Minimum age: ", ages[0]);
 console.log("Maximum age: ", ages[ages.length-1]);
+     
+// Find the median age(one middle item or two middle items divided by two)
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+var median = ((ages[ages.length/2]+ages[ages.length/2+1]))/2;
+console.log(median);
+
+// Find the average age(all items divided by the number of items)
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+let sum = 0;
+for(let i=0;i<ages.length;i++){
+    sum = sum + ages[i];
+}
+var average = sum/2;
+console.log(average);
+
+// Find the range of the ages(max minus min)
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+ages.sort();
+let range = (ages[ages.length-1] - ages[0]);
+console.log(range);
 ```
 _**Output**_
 ```javascript
-[19, 19, 20, 22, 24, 24, 24, 25, 25, 26]
-Minimum age:  19
-Maximum age:  26
+[19, 19, 20, 22, 24, 24, 24, 25, 25, 26]       // sorted array
+Minimum age:  19                               // max age
+Maximum age:  26                               // min age
+22.5                                           // median
+114                                            // average
+7                                              // range
 ```
      
 <b>28. Use for loop to iterate from 0 to 100 and print only prime numbers<b>
