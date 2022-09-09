@@ -375,6 +375,37 @@ A
     - March, April or May, the season is Spring
     - June, July or August, the season is Summer
 
+_**Code**_
+```javascript
+let season = prompt("Enter your month: ");
+if(season === 'September' || season === 'October' || season === 'November'){
+    console.log('Autumn');
+}
+else if(season === 'December' || season === 'January' || season === 'February'){
+    console.log('Winter');
+}
+else if(season === 'March' || season === 'April' || season === 'May'){
+    console.log('Spring');
+}
+else{
+    console.log('Summer');
+}
+```            
+_**Input**_
+```javascript
+September
+January
+May
+June
+```
+_**Output**_
+```javascript
+Autumn
+Winter
+Spring
+Summer
+```
+                      
 <b>22. Write a program which tells the number of days in a month.</b>
 
 _**Code**_
