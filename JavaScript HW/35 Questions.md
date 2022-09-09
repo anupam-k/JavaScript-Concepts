@@ -527,7 +527,7 @@ _**Output**_
 [19, 19, 20, 22, 24, 24, 24, 25, 25, 26]       // sorted array
 Minimum age:  19                               // min age
 Maximum age:  26                               // max age
-22.5                                           // median
+24                                             // median
 114                                            // average
 7                                              // range
 ```
