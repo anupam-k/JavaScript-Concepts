@@ -335,7 +335,8 @@ You are old enough to drive
 Wait for the number of years he needs to turn 18
 ```
      
-<b>19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?</b>
+<b>19. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?</b><br>
+     
 _**Code**_
 ```javascript     
 const prompt = require("prompt-sync")();
