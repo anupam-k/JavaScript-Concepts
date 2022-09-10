@@ -45,34 +45,34 @@
     ];
 
     const products = [
-  {
-    _id: 'eedfcf',
-    name: 'mobile phone',
-    description: 'Huawei Honor',
-    price: 200,
-    ratings: [
-      { userId: 'fg12cy', rate: 5 },
-      { userId: 'zwf8md', rate: 4.5 }
+    {
+     _id: 'eedfcf',
+     name: 'mobile phone',
+     description: 'Huawei Honor',
+     price: 200,
+     ratings: [
+       { userId: 'fg12cy', rate: 5 },
+       { userId: 'zwf8md', rate: 4.5 }
     ],
     likes: []
-  },
-  {
+    },
+    {
     _id: 'aegfal',
     name: 'Laptop',
     description: 'MacPro: System Darwin',
     price: 2500,
     ratings: [],
     likes: ['fg12cy']
-  },
-  {
+    },
+    {
     _id: 'hedfcg',
     name: 'TV',
     description: 'Smart TV:Procaster',
     price: 400,
     ratings: [{ userId: 'fg12cy', rate: 5 }],
     likes: ['fg12cy']
-  }
-]
+    }
+    ]
 -----
 
 a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
@@ -82,11 +82,11 @@ b. Create a function called signIn which allows user to sign in to the applicati
 
 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
 
----
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const products = [
+```
+ const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+ const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ const products = [
   { product: 'banana', price: 3 },
   { product: 'mango', price: 6 },
   { product: 'potato', price: ' ' },
@@ -94,7 +94,7 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
----
+```
 - Explain the difference between forEach, map, filter, and reduce.
 - Define a callback function before you use it in forEach, map, filter or reduce.
 - Use forEach to console.log each name in the names array.
