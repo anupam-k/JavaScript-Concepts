@@ -49,3 +49,4 @@ Anurag Tiwari
 ```
 ![image](https://user-images.githubusercontent.com/91872149/189471813-e2bef284-e905-47f1-b34c-e54d6e66d382.png)
 
+## getter and setter
