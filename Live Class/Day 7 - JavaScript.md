@@ -72,4 +72,6 @@ class UserTwo extends UserOne {
 
 }
 ```  
+![image](https://user-images.githubusercontent.com/91872149/189473160-56c430a0-b094-4799-9e9b-ef3342696e82.png)
+
 </b>
