@@ -14,6 +14,12 @@ let heropower = {
       console.log('Spidy Power is ${this.spiderman`}');
   }
 }
+
+
+//heyArray -> Total element is 4
+Array.prototype.heyArray = function() {
+		console.log(`Total elements are ${this.length}`);
+}
 ```
 - Array has its own properties but it also inherits properties of object
 
