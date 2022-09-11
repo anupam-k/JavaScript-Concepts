@@ -58,7 +58,7 @@ Object.setPrototypeOf(Teacher, User); // preferred
 Object.setPrototypeOf(TeachingSuport, Teacher);
 ```
 
-## Challenge
+## _Challenge_
 ```javascript
 console.log("Hitesh".length);   // 6
 console.log("Hitesh  ".length); // 8
@@ -101,4 +101,74 @@ Hello I am User Two
 Hello I am User Three
 I am inside User Two
 ```	
+## _Promise(Callback, Promise con, async await)_
+- pending
+- fullfilled (resolve)
+- reject (reject)
+	
+```javascript
+const MakePromise = new Promise((resolve,reject) => {
+   setTimeOut(() => {
+   const arrOne = ["userOne", "userTwo","userThree"];
+   if(arrOne.length > 0) {
+      resolve("User Found");
+   } else {
+      reject("No Found");
+   }
+  }, 2500);
+});
+
+// MakePromise.then().catch();
+// console.log(MakePromise.then());	
+	
+MakePromise.then((result) => {
+   console.log(result);
+}).catch((result) =>{
+   console.log(result);
+});
+	
+	
+// Output
+User Found
+```
+# _Async and Await_
+
+```javascript
+const UserOne = () => {
+	return "I am UserOne";
+};
+const UserTwo = () => {
+	return new Promise((resolve,reject0 => {
+	setTimeOut(() => {
+		resolve("User Found");
+	}, 1500);
+  });
+};
+const UserThree = () => {
+	return "I am UserThree";
+};
+	
+const Wait = async() => {
+  let GuestOne = UserOne();
+  console.log(GuestOne);
+	
+  let GuestTwo = await UserTwo();
+  console.log(GuestTwo);
+	
+  let GuestThree = UserThree();
+  console.log(GuestThree);
+};
+	
+Wait();
+
+// Output without async
+I am UserOne
+Promise { <pending> }
+I am UserThree
+	
+// Output with async
+I am UserOne
+User Found
+I am UserThree
+```
 </b>
