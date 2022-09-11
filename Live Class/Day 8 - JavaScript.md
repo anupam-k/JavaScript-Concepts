@@ -71,4 +71,34 @@ String.prototype.trueLength = function() {
 "Hitesh  ".trueLength();
 
 ```
+
+# _Event Loop_
+ - _based on event occurance it gets executed_
+	
+```javascript
+const UserOne = () => {	
+    console.log("Hello I am User One");	
+}
+
+const UserTwo = () => {
+	setTimeout(() => {
+      console.log("I am inside User Two");
+	}, 2000);
+	console.log("Hello I am User Two");
+}
+	
+const UserThree = () => {
+      console.log("Hello I am User Three");
+}
+
+UserOne();
+UserTwo();
+UserThree();
+	
+// Output
+Hello I am User One
+Hello I am User Two
+Hello I am User Three
+I am inside User Two
+```	
 </b>
