@@ -31,4 +31,19 @@ myHeros.hitesh()
 ```
 - Array has its own properties but it also inherits properties of object
 
+## _Inheritance_
+```javascript
+cont User  = {
+	name: "top nname",
+	email: "example@gmail.com"
+}
+
+const Teacher = { 
+	makeVideos: true
+}
+
+Teacher.__proto__ = User
+Teacher.prototype = User
+Object.setPrototypeOf(Teacher, User); // preferred
+```
 </b>
