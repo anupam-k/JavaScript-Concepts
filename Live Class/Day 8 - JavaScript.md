@@ -15,11 +15,12 @@ let heropower = {
   }
 }
 
+// Object Prototype
 Object.prototype.hitesh = function(){
 	console.log("This is Hitesh");
 }
 
-
+// Array Prototype
 //heyArray -> Total element is 4
 Array.prototype.heyArray = function() {
 		console.log(`Total elements are ${this.length}`);
