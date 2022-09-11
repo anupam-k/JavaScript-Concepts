@@ -25,6 +25,9 @@ Object.prototype.hitesh = function(){
 Array.prototype.heyArray = function() {
 		console.log(`Total elements are ${this.length}`);
 }
+
+myHeros.hitesh()
+
 ```
 - Array has its own properties but it also inherits properties of object
 
