@@ -42,8 +42,33 @@ const Teacher = {
 	makeVideos: true
 }
 
+const TeachingSuport = {
+	isAvailable: false
+}
+
+const TSAssistant = {
+	makeAssignment: "js assignment",
+	fullTime: true,
+	__proto__: TeachingSupport  // old code
+}
+
 Teacher.__proto__ = User
 Teacher.prototype = User
 Object.setPrototypeOf(Teacher, User); // preferred
+Object.setPrototypeOf(TeachingSuport, Teacher);
+```
+
+## Challenge
+```javascript
+console.log("Hitesh".length);   // 6
+console.log("Hitesh  ".length); // 8
+
+// trueLength()
+String.prototype.trueLength = function() {
+    console.log(`true length is ${this.trim().length});
+}
+
+"Hitesh  ".trueLength();
+
 ```
 </b>
