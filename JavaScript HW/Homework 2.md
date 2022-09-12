@@ -1,6 +1,8 @@
-1. Create an object literal called personAccount. It has firstName, lastName, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.
+<b><i>1. Create an object literal called personAccount. It has firstName, lastName, incomes, expenses properties and it has totalIncome, totalExpense, accountInfo,addIncome, addExpense and accountBalance methods. Incomes is a set of incomes and its description and expenses is a set of incomes and its description.</i></b>
 
----
+<b>
+
+```javascript
     const users = [
     {
         _id: 'ab12ex',
@@ -43,37 +45,36 @@
         isLoggedIn: false
     }
     ];
-
     const products = [
     {
-     _id: 'eedfcf',
-     name: 'mobile phone',
-     description: 'Huawei Honor',
-     price: 200,
-     ratings: [
-       { userId: 'fg12cy', rate: 5 },
-       { userId: 'zwf8md', rate: 4.5 }
-    ],
-    likes: []
+        _id: 'eedfcf',
+        name: 'mobile phone',
+        description: 'Huawei Honor',
+        price: 200,
+        ratings: [
+            { userId: 'fg12cy', rate: 5 },
+            { userId: 'zwf8md', rate: 4.5 }
+        ],
+        likes: []
     },
     {
-    _id: 'aegfal',
-    name: 'Laptop',
-    description: 'MacPro: System Darwin',
-    price: 2500,
-    ratings: [],
-    likes: ['fg12cy']
+        _id: 'aegfal',
+        name: 'Laptop',
+        description: 'MacPro: System Darwin',
+        price: 2500,
+        ratings: [],
+        likes: ['fg12cy']
     },
     {
-    _id: 'hedfcg',
-    name: 'TV',
-    description: 'Smart TV:Procaster',
-    price: 400,
-    ratings: [{ userId: 'fg12cy', rate: 5 }],
-    likes: ['fg12cy']
+        _id: 'hedfcg',
+        name: 'TV',
+        description: 'Smart TV:Procaster',
+        price: 400,
+        ratings: [{ userId: 'fg12cy', rate: 5 }],
+        likes: ['fg12cy']
     }
     ]
------
+```
 
 a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
 b. Create a function called signIn which allows user to sign in to the application
@@ -82,7 +83,7 @@ b. Create a function called signIn which allows user to sign in to the applicati
 
 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
 
-```
+```javascript
  const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
  const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
  const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -95,6 +96,7 @@ b. Create a function called signIn which allows user to sign in to the applicati
   { product: 'tea', price: '' },
 ]
 ```
+    
 - Explain the difference between forEach, map, filter, and reduce.
 - Define a callback function before you use it in forEach, map, filter or reduce.
 - Use forEach to console.log each name in the names array.
@@ -122,11 +124,12 @@ b. Create a function called signIn which allows user to sign in to the applicati
 - Use findIndex to find the position of Norway if it doesn't exist in the array you will get -1.
 - Use findIndex to find the position of Russia if it doesn't exist in the array you will get -1.
 
----
+```javascript
 const a = [4, 5, 8, 9]
 const b = [3, 4, 5, 7]
 const countries = ['Finland', 'Sweden', 'Norway']
----
+```
+    
 - create an empty set
 - Create a set containing 0 to 10 using loop
 - Remove an element from a set
@@ -134,7 +137,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 - Create a set of 5 string elements from array
 - Create a map of countries and number of characters of a country
 
----
+```javascript
 const constants = [2.72, 3.14, 9.81, 37, 100]
 const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
 const rectangle = {
@@ -187,7 +190,7 @@ const users = [
   age:20
 }
 ]
----
+```
 
 - Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
 - Destructure and assign the elements of countries array to fin, est, sw, den, nor
@@ -198,3 +201,4 @@ const users = [
 
 - Create a closure which has one inner function
 - Create a closure which has three inner functions
+</b>
