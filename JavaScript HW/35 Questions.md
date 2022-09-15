@@ -370,15 +370,15 @@ _**Code**_
 let score = prompt("Enter your score: ");
 
 if(score >= 80 && score <= 100)
-console.log("A");
+  console.log("A");
 else if(score >= 70 && score <= 79)
-console.log("B");
+  console.log("B");
 else if(score >= 60 && score <= 69)
-console.log("C");
+  console.log("C");
 else if(score >= 50 && score <= 59)
-console.log("D");
+  console.log("D");
 else
-console.log("F");
+  console.log("F");
 ```
 _**Input**_
 ```javascript
@@ -644,13 +644,13 @@ let height = prompt("Enter your height: ");
 let bmi = weight/(height*height);
 
 if(bmi < 18.5)
-console.log("Underweight");
+  console.log("Underweight");
 else if(bmi >= 18.5 && bmi <= 24.9)
-console.log("Normal Weight");
+  console.log("Normal Weight");
 else if(bmi >= 25 && bmi <= 29.9)
-console.log("Overweight");
+  console.log("Overweight");
 else
-console.log("Obese");
+  console.log("Obese");
  ```
                                 
 _**Input**_
