@@ -1,6 +1,6 @@
 ## _JavaScript Questions_
  <b>1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with there type.<b>
-<br><br>
+<br>
 
 _**Code**_
 ```javascript
