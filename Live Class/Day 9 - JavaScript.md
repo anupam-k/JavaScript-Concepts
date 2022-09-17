@@ -104,8 +104,10 @@
 ```  
 ![image](https://user-images.githubusercontent.com/91872149/190842125-07f5cf9f-9254-48c7-a901-349224e4d7b5.png)
 
-## _QuerySelector_
+## _QuerySelector_ 
+- First occurance of element in DOM list
 - querySelector selects html element Id, classname, tagname
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -133,6 +135,7 @@
 </html>
 ```
 ## _querySelectorAll_
+- All occurance of element in DOM list
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -156,6 +159,10 @@
 ```
 ![image](https://user-images.githubusercontent.com/91872149/190842507-9ee7d60d-9f98-413e-9297-2da6ec3c81a0.png)
 
+## _DOM works on 3 main things:_
+- method
+- sub object
+- properties
 </b>  
     
     
