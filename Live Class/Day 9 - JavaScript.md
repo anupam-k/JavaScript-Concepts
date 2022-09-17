@@ -163,7 +163,164 @@
 - method
 - sub object
 - properties
+
+## _Finding through JavaScript_
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Hello JavaScript</h1>
+    <p>Hello</p>
+    <p>Hi</p>
+    <p>Hey</p>
+    <!-- Finding: Id, Class, tagname, querSelector("")-->
+    <!--Changing : innerHTML -->
+    <script>
+      let value = document.querySelectorAll("p");
+      value[2].setAttribute("class", "js");
+      console.log(value);
+      // NodeList(3) [p, p, p.js]
+      // 0: p
+      // 1: p
+      // 2: p.js
+      // length: 3
+      value[2].textContent = "Hello Hitesh Sir";
+    </script>
+  </body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/91872149/190843178-4d0e93b7-3013-4a3f-a9b0-2f68023bb426.png)
+
+## _Adding/Appending through JavaScript_
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <ul></ul>
+
+    <!--Adding -->
+    <script>
+      const list = `
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+        `;
+      let ul = document.querySelector("ul");
+      ul.innerHTML = list;
+    </script>
+  </body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/91872149/190843491-63d0984d-bb2d-4d30-a076-95021689febf.png)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <script>
+      let title = document.createElement("h1");
+      title.classname = "title";
+      title.style.fontSize = "25px";
+      title.textContent = "hello javascript";
+      // console.log(title);
+      document.body.appendChild(title);
+    </script>
+  </body>
+</html>
+```
+![image](https://user-images.githubusercontent.com/91872149/190843899-3337ebab-c3f8-4e0a-9620-e494ebef803c.png)
+
+## _Delete through JavaScript_
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Hello Javascript</h1>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <script>
+      const ul = document.querySelector("ul");
+      const lists = document.querySelectorAll("li");
+      for (list of lists) {
+        ul.removeChild(list);
+      }
+    </script>
+  </body>
+</html>
+```
+
+![image](https://user-images.githubusercontent.com/91872149/190844376-9c2b1ca0-13b1-4ee4-8db6-3807cb488005.png)
+
+## _Event Listener_
+- click
+- dbclick
+- mouseenter
+- mouseover
+- input
+- change
+- blur
+- keypree
+- keyup
+
+Always takes two parameter
+- name of event
+- function
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Hello JavaScript</h1>
+    <p id="js"></p>
+    <script>
+      document.addEventListener("click", hello);
+      function hello() {
+        document.getElementById("js").innerHTML = "IRONMAN";
+      } // after clicking Ironman comes
+    </script>
+  </body>
+</html>
+```
+_Before Click_
+![image](https://user-images.githubusercontent.com/91872149/190844747-5b8c4fc0-deba-484e-a742-f1a42c46512c.png)
+_After Click_
+![image](https://user-images.githubusercontent.com/91872149/190844725-06f42608-dca3-46ae-b10d-d49a2795e12e.png)
+
 </b>  
+
     
     
     
