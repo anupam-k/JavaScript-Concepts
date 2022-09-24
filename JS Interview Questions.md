@@ -314,7 +314,12 @@ dec();
 - Promises
 - Closure
 - High Order Function
+- hoisting
+- execution context
+- scope
+- call stack
 </b>
+
 
 
 
