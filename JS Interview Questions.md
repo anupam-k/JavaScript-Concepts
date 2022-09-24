@@ -130,7 +130,40 @@ length: property
    - Logical Operator(&&, ||)
    - Ternary Operator or Ternary Condition
 
+## _Conditions_
 
+   - if, if else, if else if else, switch, ternary
+```
+let user = "Hitesh_Sir";
+switch(user) {
+     case "Hitesh_Sir":
+     	    console.log("Hitesh Sir");
+          break;
+
+     case "Anurag":
+	  console.log("Anurag Tiwari");
+          break;
+
+	 default:
+	 console.log("Hello World");
+		   break;
+}
+```
+## _Ternary_
+<b>condition ? true event : false event</b>
+
+```
+let raining = true;
+
+raining 
+? console.log("It is Raining")
+: console.log("It is not Raining")
+
+			OR
+
+raining ? console.log("It is Raining") : console.log("It is not Raining")
+```
+// It is Raining  
 
 
 
