@@ -232,8 +232,32 @@ console.log(UpperStud);
 - sort()
 - log()
 
+```
+let names = {
+ anurag: 97,
+ Shubham: 98,
+ HiteshSir: 100,
+};
 
+console.log(names.anurag);
 
+// 97
+
+let names = {
+ anurag: 97,
+ Shubham: 98,
+ HiteshSir: 100,
+ students: ["Stud1","Stud2", "Stud3"],
+ username: function () {
+return this.anurag;
+ },
+};
+
+console.log(names.username());
+console.log(names.students[1]);
+// 97
+// Stud2
+```
  
 
 
