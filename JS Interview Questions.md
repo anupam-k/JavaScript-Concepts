@@ -259,8 +259,18 @@ console.log(names.students[1]);
 // Stud2
 ```
  
+## _Date_
+<b>
+	
+```javascript
+let some = new Date();
+console.log(some.getMonth());
+// 8
 
-
+console.log(some.toString());
+// Sat Sep 24 2022 12:23:46 GMT+0530 (India Standard Time)
+```
+</b>
 
 
 
