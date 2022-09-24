@@ -213,6 +213,24 @@ console.log(UpperStud);
 
 ```
 
+## _Imp for function_
+- concat()
+- indexOf()
+- lastindexOf()
+- includes()
+- isArray()
+- toString()
+- join()
+- pop()
+- push()
+- slice()
+- splice()
+- shift()
+- unshift()
+- splice()
+- reverse()
+- sort()
+- log()
 
 
 
