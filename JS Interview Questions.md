@@ -285,7 +285,21 @@ console.log(squ());
 // Output
 // 2
 // 2
-```	
+```
+	
+```
+function sum() {
+  let sums = 0;
+ for(let i=0;i<arguments.length; i++){
+	sums = sums + arguments[i];
+    }
+  return sums;
+}
+console.log(sum(1,2,3,4,5,6,7));
+
+// output
+// 28
+```
 	
 	
 	
