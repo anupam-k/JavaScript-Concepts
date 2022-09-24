@@ -270,6 +270,25 @@ console.log(some.getMonth());
 console.log(some.toString());
 // Sat Sep 24 2022 12:23:46 GMT+0530 (India Standard Time)
 ```
+	
+## _Function_
+
+```javascript
+function squ(){
+	console.log(2);
+}
+
+let store = squ();
+console.log(store);
+console.log(squ());
+
+// Output
+// 2
+// 2
+```	
+	
+	
+	
 </b>
 
 
