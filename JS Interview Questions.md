@@ -131,8 +131,9 @@ length: property
    - Ternary Operator or Ternary Condition
 
 ## _Conditions_
-
    - if, if else, if else if else, switch, ternary
+   
+
 ```
 let user = "Hitesh_Sir";
 switch(user) {
@@ -149,27 +150,51 @@ switch(user) {
 		   break;
 }
 ```
+
+	
 ## _Ternary_
 <b>condition ? true event : false event</b>
 
 ```
 let raining = true;
-
 raining 
 ? console.log("It is Raining")
 : console.log("It is not Raining")
-
 			OR
-
 raining ? console.log("It is Raining") : console.log("It is not Raining")
 ```
 // It is Raining  
 
+## _Loops_
+
+### _For Loop_
 
 
+```
+for(ini; condition; increment/decrement)
+```
 
-  
+<b>Can I declare variable inside for loop</b>
+     - Yes, We can declare and at the same time we initialise also
 
+### _Do while_
+do while will execute the code atleast once and while will not
+
+```
+let i= 0;
+while ( i <= 5) {
+	console.log(i);
+	i++;
+}
+
+// Output
+// 0
+// 1
+// 2
+// 3
+// 4
+// 5
+```
 
 
 
