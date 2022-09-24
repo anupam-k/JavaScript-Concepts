@@ -196,6 +196,22 @@ while ( i <= 5) {
 // 5
 ```
 
+```
+let students = ["Shivam", "Noman", "Sudhip", "Akash","Anitha"];
+console.log(students);
+
+let UpperStud = [];
+
+for(let i = 0; i< students.length; i++){
+ 	UpperStud.push(students[i].toUpperCase());
+}
+console.log(UpperStud);
+
+// Output
+['Shivam', 'Noman', 'Sudhip', 'Akash', 'Anitha']
+['SHIVAM', 'NOMAN', 'SUDHIP', 'AKASH', 'ANITHA']
+
+```
 
 
 
