@@ -1,34 +1,34 @@
 # _Javascript | Interview Questions_
-- First name Of Js  - Mocha
+- First name of JS  - <b><i>Mocha</b></i>
 
-- Launched year of JS - 1995
+- Launched year of JS - <b><i>1995</b></i>
 
 - JS was designed for frontend or backend 
-   - initially was made for frontend later on the backend
+   - <b><i>initially was made for frontend later on the backend</b></i>
 
-- which kind of software do we use to run js - node js
+- which kind of software do we use to run js - <b><i>Node JS</b></i>
 
-- can I run the js program in the browser and where - yes, console.log
+- Can I run the js program in the browser and where - <b><i>yes, console.log</b></i>
 
-- how can I declare variables: let, var, const
+- how can I declare variables: <b><i>let, var, const</b></i>
 
-- which introduced ES6: let and const
+- which introduced ES6: <b><i>let and const</b></i>
 
-- Syntax of ES6: let and const
+- Syntax of ES6: <b><i>let and const</b></i>
 
-- What is a Variable: variable is like a container that stores values of different datatypes
+- What is a Variable: <b><i>Variable is like a container that stores values of different datatypes</b></i>
 
-- const: initialisation should be done on the spot at the time of declaration
+- const: <b><i>initialisation should be done on the spot at the time of declaration</b></i>
 
 - read hoisting in depth(Homework)
 
-- Two broad category of data types: primitives and non-primitives(is also called object)
+- Two broad category of data types: <b><i>primitives</b></i> and <b><i>non-primitives(is also called object)</b></i>
 
-- diff between primitives and non-primitives:
-  primitives: storing one single type of value
-  non-primitives: storing multiple type of value
+- Diff between primitives and non-primitives:<br>
+  <b><i>primitives:</b></i> storing one single type of value<br>
+  <b><i>non-primitives:</b></i> storing multiple type of value<br>
 
-- _Data types under Primitive:_
+- <b>_Data types under Primitive:_</b>
   - Number
   - String 
   - Boolean
