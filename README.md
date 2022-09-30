@@ -6,3 +6,5 @@
 
 ### _- Link:_ _[35 Questions Homework](https://github.com/anupam-k/JavaScript-Concepts/blob/main/JavaScript%20HW/35%20Questions.md)_
 
+### _- Link:_ _[DOM Manipulation Assignments](https://github.com/anupam-k/JavaScript-Concepts/tree/main/DOM%20Manipulation)_
+
