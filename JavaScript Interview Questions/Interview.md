@@ -46,8 +46,11 @@
 <b>9. Explain Closure in Javascript</b><br>
 - A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment).<br> 
 - In other words, a closure gives you access to an outer function's scope from an inner function.<br>
-- This phenomenon is called Lexical Scope<br><br><br>
+- This phenomenon is called Lexical Scope<br><br>
 
 <b>10. Explain Rest and Spread Operator</b>
+<br>
+<b>11. What are Promises in Javascript and how to use of promises in JS?</b>
+<br>
 
 Alternative name of ES6: <b>ECMAScript 2015</b>
