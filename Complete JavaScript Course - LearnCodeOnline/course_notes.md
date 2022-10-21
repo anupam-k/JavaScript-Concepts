@@ -12,6 +12,8 @@
 - Deno
 - Node Js
 
+And these engines make the code browser executable. Hence, we don't need to attach a JS file to HTML, we can directly run those javascript codes.
+
 ## _ECMAscript(ES)_
 <b>European Computer Manufacturers Association(ECMA)</b>
 > Wrote a set of Guidelines, and based on these guidelines JavaScript is made
