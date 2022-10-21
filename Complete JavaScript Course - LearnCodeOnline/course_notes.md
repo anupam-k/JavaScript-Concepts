@@ -1,7 +1,12 @@
 
 ![Moralis-Blogpost-JavaScript-Explained-07272021-V12](https://user-images.githubusercontent.com/91872149/185988924-832bca33-b4b8-41db-baee-f8e777424af2.png)
 
-## _JS Engine_
+## _Classic way of writing JavaScript_
+- Make an `index.html` file and add `script.js` file in it
+- This is the **_traditional way_**
+
+## _JS Engine_ 
+ JavaScript comes with a compiler that can turn your javascript code into browser executable code 
 - V8
 - Spider Monkey
 - Deno
