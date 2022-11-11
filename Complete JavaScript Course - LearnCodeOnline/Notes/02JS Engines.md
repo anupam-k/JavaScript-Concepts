@@ -1,5 +1,6 @@
 ## _Classic way of writing JavaScript_
-- Make an `index.html` file and add `script.js` file in it
+- Make an **`index.html**` file and add **`script.js`** file in it
+- Add the **`script tag`** at the **end of HTML file** to connect **JS** to our **HTML**
 - This is the **_traditional way_**
 
 ## _JS Engine_ 
