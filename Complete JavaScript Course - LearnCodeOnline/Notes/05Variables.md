@@ -8,6 +8,12 @@
 - Starting variable with capital letter is not a good practice
 - Stick to one naming convenstion
 
+## _Data Types_
+- **_Strings_**
+- **_Numbers_**
+- **_Boolean_**
+- **_Undefined_**: If you don't store anything that's **_Undefined_**
+
 ## _Example_
 <b>
 
@@ -47,3 +53,40 @@ console.log("loggedCount"); //loggedCount
 
 - Anything inside **"Double Quotes"** are treated as **_String_**
 
+## _Example_
+
+<b>
+
+```javascript
+var paymentMode;
+console.log(paymentMode); //undefined
+
+paymentMode = "Credit Card";
+console.log(paymentMode); //Credit Card
+```
+
+</b>
+
+- If nothing is assigned to a variable, it is called **_Undefined_**
+
+## _Reserved Keywords_
+- In JavaScript you cannot use these reserved words as variables, labels, or function names:
+
+
+| abstract | arguments | await* | boolean |
+| --- | -- | -- | --- |
+| break |	byte |	case |	catch |
+| char |	class* |	const |	continue |
+| debugger |	default |	delete |	do |
+| double |	else |	enum* |	eval |
+| export* |	extends*|	false|	final|
+| finally |	float |	for |	function |
+| goto |	if |	implements |	import* |
+| in |	instanceof |	int |	interface |
+| let* |	long |	native |	new |
+| null | 	package |	private |	protected |
+| public | 	return |	short  |	static  |
+| super* |	switch |	synchronized |	this |
+| throw |	throws |	transient |	true |
+| try |	typeof	 | var |	void |
+| volatile |	while |	with |	yield |
