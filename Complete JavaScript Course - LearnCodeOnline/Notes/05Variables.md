@@ -32,3 +32,18 @@ var isLoggedIn = false;
 
 - Here **isLoggedIn** is a **Boolean Value**
 - In Javascript, **_false_** and **_False_** are two different things
+
+## _Example_
+
+<b>
+
+```javascript
+var loggedCount = 34;
+
+console.log(loggedCount); //34
+console.log("loggedCount"); //loggedCount
+```
+</b>
+
+- Anything inside **"Double Quotes"** are treated as **_String_**
+
