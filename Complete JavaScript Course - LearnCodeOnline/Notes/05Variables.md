@@ -19,3 +19,15 @@ var fullName = "Anupam Kumar Krishnan";
 
 - Here we have **declred** a **_variable_** named **_fullName_**
 - It **_stores_** the name **_"Anupam Kumar Krishnan"_**
+
+## _Example_
+
+<b>
+
+```javascript
+var isLoggedIn = false;
+```
+</b>
+
+- Here **isLoggedIn** is a **Boolean Value**
+- In Javascript, **_false_** and **_False_** are two different things
