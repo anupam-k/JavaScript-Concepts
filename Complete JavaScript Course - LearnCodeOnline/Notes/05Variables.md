@@ -19,6 +19,7 @@ var fullName = "Anupam Kumar Krishnan";
 
 - Here we have **declred** a **_variable_** named **_fullName_**
 - It **_stores_** the name **_"Anupam Kumar Krishnan"_**
+- Only **_String_** comes in **_Double Quotes_**
 
 ## _Example_
 
