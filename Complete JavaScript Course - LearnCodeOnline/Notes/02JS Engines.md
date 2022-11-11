@@ -14,7 +14,9 @@
 - **Deno**
 - **Node Js**
 
-And these engines make the code browser executable. Hence, we don't need to attach a JS file to HTML, we can directly run those javascript codes.
+## _Notes_
+- And these **engines** make the code **_browser executable_**.
+- Hence, we **don't need to attach a JS file to HTML**, we can **directly run** those _**Javascript Codes**_
 
 ## _ECMAscript(ES)_
 <b>European Computer Manufacturers Association(ECMA)</b>
