@@ -1,6 +1,3 @@
-
-![Moralis-Blogpost-JavaScript-Explained-07272021-V12](https://user-images.githubusercontent.com/91872149/185988924-832bca33-b4b8-41db-baee-f8e777424af2.png)
-
 ## _Classic way of writing JavaScript_
 - Make an `index.html` file and add `script.js` file in it
 - This is the **_traditional way_**
